@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <title>Portfolio</title>
-  </head>
+<head>
+<meta charset='UTF-8'/>
+<title>Portfolio</title>
+<link rel='stylesheet' href='cssStuff.css'/>
+</head>
   <body>
     <h1>About Me!</h1>
 
     <br>
 
     <h2>About</h2>
-    <p>My name is Maxwell Lenker and I'm a CS student from South Carolina.
+    <p class='synopsis'>My name is Maxwell Lenker and I'm a CS student from South Carolina.
     I work for BYU's Continuing Ed website as a student dev and I enjoy
     spending time with my fiancee and working on gamecube controllers in my
     free time.
   CHANGE CHANGE CHANE</p>
     <br>
-    <hr size="10">
 
     <h2>Projects</h2>
-    <ol>
-        <li>Continuing Ed website</li>
-        <li>Lexer</li>
-        <li>Maxwells Mods</li>
-    </ol>
+    <ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
 
     <br>
-    <hr size="10">
 
     <h2>Experience</h2>
     <p>
       <a href='https://twitter.com/MaxwellsMods/status/1435667599195398147?s=20'
       >My Company Twitter</a>
     </p>
+    <div class='button'>Button One</div>
+    <a id='button-2' class='button' href='nowhere.html'>Button Two</a>
+    <p>Paragraphs are blocks, too. <em>However</em>, &lt;em&gt; and &lt;strong&gt;
+    elements are not. They are <strong>inline</strong> elements.</p>
 
     <br>
-    <hr size="10">
 
     <h2>Contact</h2>
     <p>Email: maxlenker@gmail.com</p>
